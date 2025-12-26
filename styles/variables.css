@@ -1,0 +1,45 @@
+/* ===== ERP DESIGN SYSTEM - DARK/GREEN THEME ===== */
+:root {
+    /* Color Palette - Extracted from User Screenshots */
+    --bg-app: #1e1e1e;
+    /* Main application background (Darkest) */
+    --bg-sidebar: #252526;
+    /* Sidebar background */
+    --bg-card: #333333;
+    /* Card background (Lighter gray) */
+    --bg-card-header: #444444;
+    /* Card header background */
+
+    /* Text Colors */
+    --text-main: #ffffff;
+    /* Main text */
+    --text-muted: #cccccc;
+    
+    /* Accents */
+    --accent-primary: #00af00;
+    /* Standard green buttons/accents */
+    --accent-hover: #00cc00;
+    /* Hover state */
+    --indicator-cyan: #008080;
+    /* The teal/cyan circle in cards */
+
+    /* Borders */
+    --border-subtle: #444444;
+
+    /* Dimensions */
+    --sidebar-width: 260px;
+    --sidebar-collapsed-width: 60px;
+    --header-height: 60px;
+
+    /* Spacing */
+    --sp-sm: 8px;
+    --sp-md: 16px;
+    --sp-lg: 24px;
+
+    /* Typography */
+    --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    /* Transitions */
+    --trans-fast: 0.3s ease;
+    --trans-smooth: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}

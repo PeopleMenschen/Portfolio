@@ -1,0 +1,55 @@
+/* ===== CONTENT PAGES STYLING ===== */
+
+/* Container for documents like Privacy Policy, Terms, About */
+.document-container {
+    background-color: var(--bg-card);
+    padding: var(--sp-lg);
+    border-radius: 12px;
+    border: 1px solid var(--border-subtle);
+    color: var(--text-muted);
+    line-height: 1.8;
+}
+
+/* Headings in documents */
+.document-title {
+    color: var(--text-main);
+    margin-bottom: var(--sp-md);
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+/* Paragraphs */
+.document-text {
+    margin-bottom: var(--sp-md);
+    font-size: 1rem;
+}
+
+/* Lists */
+.document-list {
+    margin-left: var(--sp-lg);
+    margin-bottom: var(--sp-md);
+    list-style-type: square;
+}
+
+.document-list li {
+    margin-bottom: var(--sp-sm);
+}
+
+/* Contact Details Helper */
+.contact-details {
+    margin-top: var(--sp-lg);
+    padding-top: var(--sp-md);
+    border-top: 1px solid var(--border-subtle);
+}
+
+.document-container {
+    margin-bottom: var(--sp-lg);
+}
+
+.document-container h2 {
+    margin-top: var(--sp-md);
+}
+
+.document-container p {
+    margin-bottom: var(--sp-md);
+}

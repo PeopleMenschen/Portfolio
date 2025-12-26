@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Portfolio</title>
+    <link rel="stylesheet" href="styles/layout.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- دکمه تغییر زبان ثابت -->
+        <div class="language-switcher">
+            <button class="lang-btn" title="language">🌐 language</button>
+            
+            <div class="lang-dropdown">
+                <a href="assets/persien.html" class="lang-option"><span class="lang-text">فارسی</span></a>
+                
+                <!-- <a href="en.html" class="lang-option"><span class="lang-text">English</span></a> -->
+                
+                <a href="assets/german.html" class="lang-option"><span class="lang-text">Deutsch</span></a>
+            </div>
+        </div>
+        <!-- 4.1. Intelligent Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <!-- Toggle Button (Visible/Styled for both Desktop/Mobile as needed) -->
+                <button id="sidebarToggle" class="toggle-btn">☰</button>
+                <div class="logo-area">
+                    <span>⚡</span> <!-- Simple Logo Placeholder -->
+                    <h3>My Admin</h3>
+                </div>
+            </div>
+
+            <ul class="menu-list">
+                <!-- Using simple shapes/emojis as offline icons -->
+                <li><a href="#" class="menu-link active" style="pointer-events: none"><span class="icon-box">🏠</span> <span class="link-text">Home</span></a>
+                </li>
+
+                <li><a href="#" class="menu-link" style="pointer-events: none"><span class="icon-box">⚡</span> <span class="link-text">Projects</span></a></li>
+
+                <li><a href="#" class="menu-link" style="pointer-events: none"><span class="icon-box">🎓</span> <span class="link-text">Education</span></a></li>
+
+                <li><a href="#" class="menu-link" style="pointer-events: none"><span class="icon-box">💼</span> <span class="link-text">Job Request</span></a></li>
+
+                <li><a href="#" class="menu-link" style="pointer-events: none"><span class="icon-box">⚙️</span> <span class="link-text">Office Managiment</span></a></li>
+            </ul>
+            <!-- Download Rasume -->
+             <li><a href="assets/English-cv.pdf" class="menu-link" download= "Ali Rasume"><span class="icon-box">⬇️</span> <span class="link-text">Download (CV)</span></a></li>
+
+            <!-- Footer: Contact, About, Policy (Collapsible) -->
+            <div class="sidebar-footer">
+                <button class="footer-toggle-btn" id="footerToggle">
+                    <span class="link-text">Poertfolio Info</span>
+                    <span id="footerArrow" class="link-text">▼</span>
+                </button>
+                <div class="footer-content" id="footerContent">
+                    <a href="assets/pages/privacy-polocy.html" class="footer-link">🔒 Privacy Policy</a>
+
+                    <a href="assets/pages/term.html" class="footer-link">🛡️ Terms of Portfolio</a>
+
+                    <div style="padding: 10px; font-size: 0.8rem; color: #666; text-align: center;" class="link-text">
+                        &copy; 2025 E-Portfolio All right reserved
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content (Dashboard) -->
+        <main class="main-content">
+            <header class="dashboard-header">
+                <div>
+                    <h1 class="dashboard-title">My Electrical Portfolio</h1>
+                </div>
+            </header>
+            <!-- Brief Self-Introduction Section -->
+            <div class="info-section">
+                <h2 class="info-title">Brief Self-Introduction</h2>
+                <p>I am an assistant electrician specializing in building and installation electrical systems, with 1.5 years of specialized electrical training in Germany (incomplete vocational program) and 2 years of hands-on experience on real-world projects. During this time, I have supported electrical installations in residential buildings, industrial facilities, and government offices as an assistant and helper.</p>
+
+                <p>I am a hardworking, responsible, and organized individual, with professional working proficiency in German (B2) and basic knowledge of English (A2). My goal is to establish a stable, long-term working relationship with companies and organizations that value workplace safety and employee development and are seeking a reliable, trainable team member.</p>
+
+                <h2 class="info-title">Core Skills and Foundational Training</h2>
+                <p>- Combined theoretical and practical training in classroom and workshop settings  <br> - Familiarity with building wiring principles, control panels for residential and industrial electrical systems, and electrical safety standards  <br> - Strengthened foundational technical skills tailored to residential and building installation projects </p>
+            <p>I also possess basic electrical knowledge, including the ability to perform simple calculations and cost estimations for small-scale projects. Additionally, I have practical welding skills, which I can apply when needed as a complementary capability.</p>
+            </div>
+
+            <!-- My Motivation section -->
+            <div class="info-section">
+                <h2 class="info-title">My Motivation</h2>
+                <p>I have followed my professional path in the electrical field with honesty and realism. During my time at work and school, despite receiving training and being present in formal environments, I was not always able to clearly and simply understand the overall structure of electrical systems, the logic behind installations, and the connection between different components. Instead of seeing this as a weakness, it gradually became a strong motivation for independent learning.</p>
+
+                <p>For this reason, a significant part of the technical and practical understanding presented in my portfolio has been developed through self-directed practice at home. Outside classrooms and workshops, I used my personal time to practice, analyze electrical panels, review real projects, and repeat tasks until I reached a level of understanding that was clear, logical, and practical for me.</p>
+
+                <p>My focus has never been only on completing tasks, but on understanding why and how things work. I have consistently aimed to build a solid foundation in safety principles, system structure, execution order, and the logic of residential and light industrial electrical projects, even when this required extra time and effort.</p>
+                <p>I believe that a professional who learns through personal motivation and discipline becomes more responsible, precise, and capable of long-term growth in the workplace. My goal is not short-term employment, but to become a reliable and value-creating team member who can grow with the organization.</p>
+                <p>This portfolio reflects my learning journey—a path shaped by honesty, continuous practice, and genuine interest in the electrical profession, and one that is still ongoing.</p>
+            </div>
+
+            <!-- Content Wrapper -->
+            <div class="content-wrapper">   <h2>My Symple Projects</h2>
+                <div class="card-container" id="accordionContainer">
+                    <!-- Electrical panels -->
+                    <div class="accordion-card">
+                        <div class="accordion-header">
+                            <div class="status-indicator"></div>
+                            <div class="card-title-row">
+                                <span class="card-title">Electrical Distribution Boards for Single-Family Residential Buildings</span>
+                            </div>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="content-inner-layout">
+                                <img src="assets/images/E-Boxies.jpg" alt="E-panels" class="section-image">
+                                <div>
+                                    <p>Electrical Distribution Boards for Single-Family Residential Buildings. This project involved the assembly and wiring of electrical distribution boards, specifically for single-family homes and small residential buildings. These boards were designed and installed to ensure safe, organized, and reliable power distribution in compliance with fundamental electrical principles and standards.</p>
+                                    
+                                    <p>My role in this project included the following tasks: <br> Installation and layout of modular protective devices (miniature circuit breakers, surge protective devices (SPDs), residual current devices (RCDs/RCCBs), and earth leakage protection). <br> Mounting of terminals and power distribution components. Application of basic electrical calculations, adherence to safety regulations, and wiring execution.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- E module -->
+                    <div class="accordion-card" id="officeSection">
+                        <div class="accordion-header">
+                            <div class="status-indicator"></div>
+                            <div class="card-title-row">
+                                <span class="card-title">Components Used in the Board:</span>
+                            </div>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="content-inner-layout">
+                                <img src="assets/images/E-module.jpg" alt="E-module" class="section-image">
+                                <div>
+                                    <p>This distribution board serves as the main protective and distribution unit in single-family residential buildings and includes the following key components: <br>- Residual Current Device (RCD / FI switch): Protects occupants against electric shock due to current leakage and enhances overall system safety. <br>- Miniature Circuit Breakers (MCBs): Protect individual circuits against overload and short-circuit faults. <br>- Surge Protective Device (SPD): Safeguards electrical equipment against transient overvoltages and voltage surges. <br>- Phase, Neutral, and Earth (PE) Terminals: Enable organized and secure distribution of conductors within the enclosure. Auxiliary Control and Power Modules: Provide control voltage for auxiliary devices within the panel.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Electrical medium panel -->
+                    <div class="accordion-card">
+                        <div class="accordion-header">
+                            <div class="status-indicator"></div>
+                            <div class="card-title-row">
+                                <span class="card-title">Larger-Scale Electrical Distribution Board</span>
+                            </div>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="content-inner-layout">
+                                <img src="assets/images/E-panel.jpg" alt="E-panel" class="section-image">
+                                <div>
+                                    <p>Larger-Scale Electrical Distribution Board. This is a slightly larger-scale electrical distribution board, designed for commercial, office, or multi-unit residential buildings. The panel is constructed in a modular configuration to allow for future expansion, clear circuit segregation, and ease of system upgrades.</p>
+                                    <p>Technical features of this board include:   <br>- Preparation for multiple lighting and power consumer circuits <br>- Use of protective and distribution devices across multiple levels <br>- Logical circuit separation for enhanced safety and simplified maintenance. Organized and planned wiring to support smooth final project completion</p>
+                                    <p>This project demonstrates my ability to contribute to electrical panels ranging from small to medium scale, adherence to standard structural practices, and professional preparation of distribution boards for final installation and commissioning phases.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- E fream -->
+                    <div class="accordion-card">
+                        <div class="accordion-header">
+                            <div class="status-indicator"></div>
+                            <div class="card-title-row">
+                                <span class="card-title">Electrical Panel Enclosure Frame / Skeleton</span>
+                            </div>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="content-inner-layout">
+                                <img src="assets/images/panel-fream.jpg" alt="E-Fream" class="section-image">
+                                <div>
+                                    <p>The metal frame of the electrical distribution panel is designed for medium to large-scale applications and serves as the primary structural base for mounting electrical components in building or light industrial distribution boards. This frame provides the necessary mechanical structure to ensure organized, safe, and standardized installation of electrical equipment.</p>
+                                    <p>Features and Applications:   <br>- Standardized metal DIN rails for mounting protective devices (e.g., circuit breakers, surge protectors), fuses, contactors, and control components <br>- Copper busbars installed in the lower section for current distribution, as well as neutral (N) and protective earth (PE) connections <br>- Suitable for main or sub-distribution boards in large residential buildings, office complexes, or semi-industrial installations <br>- Proper preparation of this frame is a critical foundation for precise and code-compliant assembly of electrical components</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Job Application Section -->
+            <div class="info-section">
+                <h2 class="info-title">Job Application as Electrical assistant</h2>
+                <p>I am interested in working as an assistant electrician in the fields of electrical installation, building electrics, and industrial electrical systems. I have completed 1.5 years of specialized electrical training in Germany and have 2 years of hands-on experience as an electrician’s helper on residential building and government office projects.</p>
+
+                <p>Throughout my professional experience, I have assisted with building electrical wiring, assembly and wiring of electrical distribution boards, installation of electrical equipment, and technical project support. I am familiar with safety regulations and technical procedures. Additionally, I possess fundamental electrical knowledge, including the ability to perform basic calculations and cost estimations for small-scale projects, and I hold intermediate-level practical welding skills as a complementary capability.</p>
+
+                <p>I am a hardworking, organized, and responsible individual, highly motivated to learn and grow professionally. I am seeking a stable, long-term position with organizations and companies that value workplace safety and employee development. I am proficient in professional communication in German (B2) and have basic knowledge of English (A2). <br> My Email: people.menschen@gmail.com</p>
+            </div>
+
+            <!-- Content Wrapper -->
+            <div class="content-wrapper">
+                <div class="card-container" id="accordionContainer">
+                    <!-- Priject Managiment -->
+                    <div class="accordion-card">
+                        <div class="accordion-header">
+                            <div class="status-indicator"></div>
+                            <div class="card-title-row">
+                                <span class="card-title">Projects Manegiment</span>
+                            </div>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="content-inner-layout">
+                                <img src="assets/images/ProjectM.png" alt="ProjectM" class="section-image">
+                                <div>
+                                    <p><strong>This perspective reflects my professional and long-term approach, shaped solely to support my future career growth.</strong></p>
+
+                                    <p>I have experience supporting and assisting in small-scale building electrical projects—from preparatory stages through to practical execution. This includes basic project planning, coordination of activities, adherence to schedules, and strict observance of safety protocols in real work environments. </p>
+
+                                    <p>I carry out technical tasks in an organized manner, produce simple documentation, manage limited materials efficiently, and collaborate effectively with technicians and project supervisors. My familiarity with task prioritization, basic quality control, and timely handover of project phases ensures that work progresses with minimal errors and maximum operational discipline. These capabilities demonstrate my sense of responsibility, practical execution mindset, and potential to grow into technical–supervisory roles in light industrial and building electrical projects.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- HR -->
+                    <div class="accordion-card">
+                        <div class="accordion-header">
+                            <div class="status-indicator"></div>
+                            <div class="card-title-row">
+                                <span class="card-title">🤝 HR Manegiment</span>
+                            </div>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="content-inner-layout">
+                                <img src="assets/images/HRM.png" alt="HR" class="section-image">
+                                <div>
+                                    <p><strong>This outlook embodies my professional and long-term vision, formed exclusively to advance my future career development.</strong></p>
+
+                                    <p>If I were to run my own business or company, I believe true productivity begins with job satisfaction. Therefore, I would assign duties and responsibilities based on each individual’s interests, capabilities, and skills—not merely their job title. My goal is to create a workplace where employees: <br> - Work with genuine motivation and interest,  Feel valued and trusted,  Grow in an organized, respectful, and dynamic environment.</p>
+
+                                    <p>This approach fosters a team that is more committed, cohesive, and creative, naturally leading to higher work quality. In my view, successful management means growing both the project and the people simultaneously.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- My Outlook on the Future section -->
+            <div class="info-section">
+                <h2 class="info-title">🚀 My Outlook on the Future | Technology, Learning & Professional Growth</h2>
+                <p>The field of electrical installations and building services is undergoing a major transformation, where traditional electrical systems are increasingly integrated with smart technologies, digitalization, and data-driven solutions. I have consciously aligned my professional development with this evolution through continuous and structured learning.</p>
+
+                <p>Alongside strengthening my core skills in residential and light industrial electrical work, I am highly interested in modern concepts such as smart building systems (Smart Home), basic automation, energy monitoring and efficiency, and the logical structure of modern electrical distribution panels, which I pursue step by step.</p>
+
+                <p>I also consider complementary fields such as:    <br>- System thinking and small-scale technical project management <br>- Basic understanding of programming logic for control systems <br>- Structured technical design and documentation <br>- Use of digital tools and specialized software</p>
+                <p>as essential future skills. These competencies help transform a technical assistant from a task executor into a valuable contributor to optimization, planning, and decision-support processes.</p>
+                <p>From my perspective, a valuable professional is someone who grows alongside technological progress, takes responsibility for their own learning, and remains adaptable to future organizational needs. My goal is to develop into such a professional—motivated, flexible, and reliable in the evolving electrical industry.</p>
+            </div>
+        </main>
+    </div>
+
+    <!-- Link to JavaSript -->
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
