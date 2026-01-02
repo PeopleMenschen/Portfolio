@@ -18,6 +18,17 @@ body {
     align-items: center;
     letter-spacing: 1px;
 }
+/* to home section */
+.to_home{
+    position: fixed; top: 5px; left: 5px; width: 80px; height: 30px; text-align: center; border-radius: 3px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+.to_home a{
+    color: var(--highlight); transition: all 0.3s ease; padding: 3px; text-decoration: none;
+}
+.to_home a:hover{
+    color: #008080; font-weight: 500;
+}
 .table-container{
     width: 100%;
     max-width: 1000px;
