@@ -1,0 +1,81 @@
+/* Tables style section */
+:root {
+    --bg-color: #1a1a1a;
+    --card-bg: #2d2d2d;
+    --text-color: #e0e0e0;
+    --accent-copper: #d35400;
+    --accent-alu: #7f8c8d;
+    --border-color: #404040;
+    --highlight: #f1c40f;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: 1px;
+}
+.table-container{
+    width: 100%;
+    max-width: 1000px;
+    overflow-x: auto;
+    background: var(--card-bg);
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    scrollbar-width: thin;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 700px;
+}
+th, td {
+    padding: 5px;
+    text-align: center;
+    border-bottom: 1px solid var(--border-color);
+}
+thead tr:first-child th {
+    background-color: #222729;
+    color: var(--text-color);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+/* Column Styles */
+.col-copper, .sc-col, .cu-col { background-color: rgba(211, 84, 0, 0.15); font-weight: bold; color: #ff9f43; }
+.col-alu, .al-col { background-color: rgba(127, 140, 141, 0.15); font-weight: bold; color: #bdc3c7; }
+/* Highlight target row for 75A @ 300m */
+.target-row {
+    outline: 2px solid var(--highlight);
+    background-color: rgba(241, 196, 15, 0.05);
+}
+.target-cell {
+    color: var(--highlight);
+    font-weight: bold;
+    text-decoration: underline;
+}
+tr:hover {
+    background-color: rgba(255,255,255,0.05);
+}
+.header-title {
+    text-align: center;
+    font-weight: bold; color: var(--text-color);
+}
+.footer-note {
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500; color: var(--text-color);
+    max-width: 1000px;
+}
+.presend{
+    background: var(--card-bg);
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    color: var(--text-color);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
